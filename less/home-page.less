@@ -1,17 +1,15 @@
 // Home Content
 
 .home {
-
+  padding-top: 101px;
   .intro {
-
     h2 {
       padding: 15px;
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
   }
 
   .space-images {
@@ -58,13 +56,22 @@
       }
 
       .btn {
+        a {
+          font-size: 15px;
+          .primaryBtn(10px 20px, inline-block, @btn-bg-color, 5px);
+
+          &:hover {
+            background: white;
+            color: @btn-bg-color;
+          }
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -72,4 +79,4 @@
       }
     }
   }
-}// home
+} // home

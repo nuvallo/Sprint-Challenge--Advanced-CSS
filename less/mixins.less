@@ -1,1 +1,28 @@
 // Mixins Here
+// Text color mixin = Runs only if these conditions are met. Depends on what background color is thrown in and will determine to make the font color white or black depending on the lightness
+.text-color(@a) when (lightness(@a) >= 50%) {
+  color: black;
+}
+
+.text-color(@a) when (lightness(@a) <= 50%) {
+  color: white;
+}
+
+// Flex mixin
+.displayFlex(@justify, @direction, @align, @wrap) {
+  display: flex;
+  justify-content: @justify;
+  flex-direction: @direction;
+  align-items: @align;
+  flex-flow: @wrap;
+}
+
+// btn mixin
+.primaryBtn(@padding, @displayType, @bg-color, @radius) {
+  text-decoration: none;
+  padding: @padding;
+  display: @displayType;
+  .text-color(@bg-color);
+  background: @bg-color;
+  border-radius: @radius;
+}

@@ -1,1 +1,33 @@
 // Navigation code here
+.navbar {
+  background: @nav-bg;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+  .container {
+    .displayFlex(center, column, center, none);
+
+    a {
+      text-decoration: none;
+      h1 {
+        font-size: 3rem;
+        margin: @margin-around;
+      }
+    }
+
+    ul {
+      .displayFlex(center, row, center, none);
+      margin: 0 0 1% 0;
+      width: 100%;
+
+      li {
+        padding: 2%;
+        font-size: 15px;
+
+        a {
+          color: @ebony-clay;
+        }
+      }
+    }
+  }
+}
