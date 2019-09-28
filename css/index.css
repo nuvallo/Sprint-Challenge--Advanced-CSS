@@ -326,4 +326,15 @@ footer {
     align-items: center;
     flex-flow: none;
   }
+  .home .walk .walk-img {
+    width: 100%;
+    margin-left: 0;
+    margin: 0 0 5% 0;
+    order: 1;
+  }
+  .home .walk .walk-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
 }
