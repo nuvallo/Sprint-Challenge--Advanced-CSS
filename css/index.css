@@ -377,3 +377,16 @@ footer {
 .about .what-we-do p {
   margin-top: 13px;
 }
+.about .accomplish-section .text .btn {
+  margin: 0 2%;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
+  background: #22283a;
+  border-radius: 5px;
+}
+.about .accomplish-section .text .btn:hover {
+  opacity: 0.8;
+}
