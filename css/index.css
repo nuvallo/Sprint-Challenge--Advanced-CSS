@@ -349,13 +349,13 @@ footer {
 .about {
   padding-top: 101px;
 }
-.about .main-header h2 {
+.about .about-header h2 {
   padding: 15px;
 }
-.about .main-header p {
+.about .about-header p {
   padding: 2% 15px;
 }
-.about .main-header .btn {
+.about .about-header .btn {
   margin: 0 2%;
   font-size: 15px;
   text-decoration: none;
@@ -365,7 +365,7 @@ footer {
   background: #22283a;
   border-radius: 5px;
 }
-.about .main-header .btn:hover {
+.about .about-header .btn:hover {
   opacity: 0.8;
 }
 .about .what-we-do {
@@ -464,4 +464,57 @@ footer {
   .about .accomplish-section .chart {
     width: 100%;
   }
+}
+.main-header {
+  padding-top: 120px;
+}
+.contact {
+  margin: 10% 5%;
+}
+.contact h2 {
+  margin: 0 0 1% 0;
+}
+.contact .btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
+  background: #22283a;
+  border-radius: 5px;
+}
+.contact .text-fields {
+  margin: 2% 0;
+  display: grid;
+  grid-template-areas: "name email" "subject phone";
+  grid-gap: 1.2rem;
+}
+.contact .text-fields .name-input {
+  grid-area: name;
+}
+.contact .text-fields .subject-input {
+  grid-area: subject;
+}
+.contact .text-fields .email-input {
+  grid-area: email;
+}
+.contact .text-fields .phone-input {
+  grid-area: phone;
+}
+.contact .text-fields .message-input {
+  grid-area: message;
+  height: 100px;
+}
+.contact .text-fields .text-input {
+  padding: 0.5rem 1rem;
+}
+.contact .contact-info {
+  padding: 9% 5%;
+  margin: 5% 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  border: 2px solid #dee2e6;
+}
+.contact .contact-info .box:hover {
+  cursor: pointer;
 }

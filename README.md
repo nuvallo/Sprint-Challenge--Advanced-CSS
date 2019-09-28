@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+   The difference between adaptive websites and fully resonsive websites is that adaptive has specific breakpoints for specific devices as with fully responsive websites fits any screen size.
 
 2. Describe what it means to be mobile first vs desktop first.
+   Mobile first is building the css for mobile devices first and working your way up to desktop screens. Desktop first is styling the website for desktop and moving down to mobile.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+   This makes the font size 10px which allows calculating rem units easier, making it easier to make sites for people with disablities.
 
 4. How would you describe preprocessing to someone new to CSS?
+   I would describe preprocessing as adding more funcationality to CSS that vinalla css cannot do. Preprocessing compiles the code to Vinella css.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+   My favorite concept in preprocessing is parametric mixins, because it reminds me of functions in Javascript. I didn't have any trouble with any of the concepts.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
@@ -131,4 +136,4 @@ After finishing your required elements, you can push your work further. These go
 
 - [*] Create a fixed navigation and add some opacity to the background
 
-- [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+- [*] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
