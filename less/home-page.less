@@ -98,5 +98,24 @@
         margin: auto;
       }
     }
+    .walk {
+      margin-top: 0;
+      border-top: 1px solid @main-border-color;
+      padding: 5%;
+      .displayFlex(center, column, center, none);
+
+      .walk-text {
+        width: 100%;
+        order: 2;
+
+        .btn {
+          a {
+            font-size: 15px;
+            .primaryBtn(20px 20px, inline, @btn-bg-color, 5px);
+            .displayFlex(center, row, center, none);
+          }
+        }
+      }
+    }
   } // home
 }
