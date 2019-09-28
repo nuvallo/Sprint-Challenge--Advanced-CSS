@@ -346,3 +346,19 @@ footer {
     border-radius: 10px;
   }
 }
+.about {
+  padding-top: 101px;
+}
+.about .main-header .btn {
+  margin: 0 2%;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
+  background: #22283a;
+  border-radius: 5px;
+}
+.about .main-header .btn:hover {
+  opacity: 0.8;
+}
