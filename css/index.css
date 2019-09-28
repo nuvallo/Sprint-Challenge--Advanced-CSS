@@ -437,3 +437,31 @@ footer {
   border: 1px solid black;
   padding: 5%;
 }
+@media (max-width: 500px) {
+  .about {
+    padding-top: 3%;
+    text-align: center;
+  }
+  .about .accomplish-section {
+    margin-top: 60px;
+    border-top: 1px solid #dee2e6;
+    padding: 5% 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: none;
+  }
+  .about .accomplish-section .text {
+    width: 100%;
+  }
+  .about .accomplish-section .text p {
+    margin: 0 0 5% 0;
+  }
+  .about .accomplish-section .text .btn {
+    margin: 0 0 5% 0;
+  }
+  .about .accomplish-section .chart {
+    width: 100%;
+  }
+}

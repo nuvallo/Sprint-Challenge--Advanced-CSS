@@ -92,3 +92,33 @@
     }
   }
 }
+
+// mobile
+@media @phone {
+  .about {
+    padding-top: 3%;
+    text-align: center;
+
+    .accomplish-section {
+      margin-top: 60px;
+      border-top: 1px solid @main-border-color;
+      padding: 5% 2%;
+      .displayFlex(center, column, center, none);
+
+      .text {
+        width: 100%;
+
+        p {
+          margin: @margin-b;
+        }
+        .btn {
+          margin: @margin-b;
+        }
+      }
+
+      .chart {
+        width: 100%;
+      }
+    }
+  }
+}
