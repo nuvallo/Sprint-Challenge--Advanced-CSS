@@ -60,12 +60,34 @@
       }
     }
 
-    .img {
+    .chart {
       width: 50%;
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+
+      table {
+        text-align: center;
+        width: 100%;
+        margin-top: 5%;
+        background: @wild-sand;
+        .text-color(@wild-sand);
+
+        .grey-background {
+          background: @ebony-clay;
+          .text-color(@ebony-clay);
+        }
+
+        td {
+          border: 1px solid black;
+          padding: 5%;
+        }
+        th {
+          border: 1px solid black;
+          padding: 5%;
+        }
       }
     }
   }

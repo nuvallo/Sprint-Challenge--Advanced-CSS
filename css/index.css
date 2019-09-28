@@ -410,11 +410,30 @@ footer {
 .about .accomplish-section .text .btn:hover {
   opacity: 0.8;
 }
-.about .accomplish-section .img {
+.about .accomplish-section .chart {
   width: 50%;
 }
-.about .accomplish-section .img img {
+.about .accomplish-section .chart img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.about .accomplish-section .chart table {
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+  background: #f6f6f6;
+  color: black;
+}
+.about .accomplish-section .chart table .grey-background {
+  background: #23293b;
+  color: white;
+}
+.about .accomplish-section .chart table td {
+  border: 1px solid black;
+  padding: 5%;
+}
+.about .accomplish-section .chart table th {
+  border: 1px solid black;
+  padding: 5%;
 }
