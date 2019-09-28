@@ -349,6 +349,12 @@ footer {
 .about {
   padding-top: 101px;
 }
+.about .main-header h2 {
+  padding: 15px;
+}
+.about .main-header p {
+  padding: 2% 15px;
+}
 .about .main-header .btn {
   margin: 0 2%;
   font-size: 15px;
@@ -361,4 +367,13 @@ footer {
 }
 .about .main-header .btn:hover {
   opacity: 0.8;
+}
+.about .what-we-do {
+  padding: 15px;
+}
+.about .what-we-do h3 {
+  margin-top: 11px;
+}
+.about .what-we-do p {
+  margin-top: 13px;
 }
