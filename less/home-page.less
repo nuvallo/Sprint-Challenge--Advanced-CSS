@@ -80,3 +80,23 @@
     }
   }
 } // home
+
+@media @phone {
+  .home {
+    padding-top: 0;
+    .space-images {
+      .displayFlex(center, column, center, none);
+      width: 100%;
+
+      .hide {
+        display: none;
+      }
+
+      img {
+        width: 100%;
+        padding: 5%;
+        margin: auto;
+      }
+    }
+  } // home
+}

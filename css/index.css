@@ -196,6 +196,11 @@ p {
 .navbar .container ul li a {
   color: #23293b;
 }
+@media (max-width: 500px) {
+  .navbar {
+    position: relative;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -272,4 +277,25 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home {
+    padding-top: 0;
+  }
+  .home .space-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: none;
+    width: 100%;
+  }
+  .home .space-images .hide {
+    display: none;
+  }
+  .home .space-images img {
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+  }
 }
